@@ -11,24 +11,34 @@ Quick Start
 Clone the repository
 
 git clone <repository-url>
+
 cd MarketLens
+
 Set up virtual environment
 
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv/Scripts/activate
+
 Install dependencies
 
 pip install -r requirements.txt
+
 Configure environment
 
 Create a .env file in the root directory
+
 Add your configuration:
 ALPHA_VANTAGE_API_KEY=your_api_key_here
 ALPHA_VANTAGE_BASE_URL=https://www.alphavantage.co/query
 PORT=5000
+
 Run the application
 
 python3 app.py
+
+
+
 Access the application Open your browser and navigate to http://localhost:5000
 
 API Key Setup
